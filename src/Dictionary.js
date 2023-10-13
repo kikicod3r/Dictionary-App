@@ -9,7 +9,7 @@ export default function Dictionary() {
 
   function handleResponse(response) {
     console.log(response.data);
-    setSearchResults(response.data[0]);
+    setSearchResults(response.data);
   }
 
   function search(event) {
