@@ -9,7 +9,7 @@ export default function SearchResults(props) {
         {props.searchResults.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
-              <Meaning meaning={meaning} />;
+              <Meaning meaning={meaning} />
             </div>
           );
         })}
