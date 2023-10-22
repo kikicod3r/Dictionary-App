@@ -1,3 +1,13 @@
 body {
   margin-top: 200px;
 }
+.Dictionary section {
+  background: #ececec;
+  border-radius: 7px;
+  margin: 20px 75px;
+}
+.Dictionary input {
+  width: 100%;
+  border-radius: 7px;
+  padding: 6px 8px;
+}

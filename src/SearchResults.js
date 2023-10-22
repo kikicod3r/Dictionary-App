@@ -1,16 +1,19 @@
 import React from "react";
+import "./SearchResults.css";
 import Meaning from "./Meaning";
 
 export default function SearchResults(props) {
   if (props.searchResults) {
     return (
       <div className="SearchResults">
-        <h2>{props.searchResults.word}</h2>
+        <section className="SearchWord mb-5">
+          {props.searchResults.word}
+        </section>
         {props.searchResults.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meaning meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>

@@ -1,0 +1,6 @@
+.SearchWord {
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+}
