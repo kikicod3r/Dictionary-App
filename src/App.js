@@ -4,7 +4,7 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <Dictionary />
+      <Dictionary defaultKeyword="Hello" />
       <footer>
         This page was coded by Markita Lilly and is open-sourced on{" "}
         <a

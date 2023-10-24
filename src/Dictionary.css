@@ -1,10 +1,19 @@
 body {
-  margin-top: 200px;
+  margin-top: 150px;
+  color: #272343;
+}
+h1,
+footer {
+  color: #bae8e8;
+}
+.Dictionary form {
+  padding: 30px 20px;
 }
 .Dictionary section {
-  background: #ececec;
+  background: #bae8e8;
   border-radius: 7px;
   margin: 20px 75px;
+  padding: 30px 25px;
 }
 .Dictionary input {
   width: 100%;
